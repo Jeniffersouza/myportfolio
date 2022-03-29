@@ -6,7 +6,7 @@
 
 </p>
 <p align="center">
-<img src="assets/images/screenvideo.gif" align="center" style="border-radius: 10px" />
+<img src="assets/images/video.gif" align="center" style="border-radius: 10px" />
 </p>
 
 
