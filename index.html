@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.svg" />
+    <script src="https://kit.fontawesome.com/ef2c46f17f.js" crossorigin="anonymous"></script>
+    <title>Jeniffer Souza</title>
+
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menu_mobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == "flex") {
+                    document.querySelector(".menu nav ul").style.display = "none";
+                } else {
+                    document.querySelector(".menu nav ul").style.display = "flex";
+                }
+            });
+        };
+    </script>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="logo"><img src="./assets/images/logo.png" alt=""></div>
+            <div class="menu">
+                <nav>
+                    <div class="menu_mobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#sobre-mim">Sobre</a></li>
+                        <li><a href="#conhecimentos">Conhecimentos</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=5549988161735&text=Ol%C3%A1%20vim%20pelo%20seu%20Portf%C3%B3lio." class="menu-buttom">Contato</a></li>
+                        <li><a href="https://github.com/jeniffersouza" target="_blank"><i class="fa fa-github"aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/jeniffer-souza-748894170/" target="_blank"><i class="fa fa-linkedin-square"aria-hidden="true"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="banner">
+            <div class="container">
+                <div class="banner">
+                    <div class="banner-esquerda">
+                        <p>Olá Mundo! <span>&#128075</span> Meu nome é Jeniffer</p>
+                        <h1>Jeniffer Souza</h1>
+                        <h2>Desenvolvedora</h2>
+                        <p>Programadora Front-end com foco no ecossistema do JavaScript.</p>
+                        <a href="#sobre-mim" class="buttom">Saiba mais</a>
+                    </div>
+                    <div class="banner-direita">
+                        <img src="./assets/images/avatar.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="icone-rolagem">
+               <img src="./assets/images/mouse.png" alt="">
+            </div>
+        </section>
+
+        <section id="sobre-mim">
+            <div class="container">
+                <div class="sobre-mim">
+                    <div class="sobre-mim-esquerda">
+                        <img src="./assets/images/jeni.png">
+                    </div>
+                    <div class="sobre-mim-direita">
+                        <div class="titulo">
+                            <p>Quem sou eu</p>
+                            <h1>Sobre mim</h1>
+                        </div>
+                        <p>Apaixonada por tecnologia, fui apresentada ao desenvolvimento web e mobile. Desde então, sigo estudando e desenvolvendo projetos, a fim de dominar o ecossistema das linguagem JavaScript. Sempre buscando criar soluções combinando design <br> e interatividade para uma melhor experiência do usuário. </br></br>Sou fascinada por resolução de problemas, principalmente utilizando tecnologias que envolvem web e mobile.   Atualmente cursando Ciências da Computação.</p>
+                        <a href="https://drive.google.com/file/d/11yExeKPxNJ7dWbS1r96U_XtDJUvPjo6P/view?usp=sharing" target="_blank" class="buttom">Download CV</a></li>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="conhecimentos">
+            <div class="container">
+                <div class="conhecimentos">
+                    <div class="titulo">
+                        <p>O que estou estudando</p>
+                        <h1>Conhecimentos</h1>
+                    </div>
+                    <div class="conhecimentos-cards">
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="assets/images/html_icon.png">
+                            <h2>HTML</h2>
+                            <p>HTMl é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores.</p>
+                            </div>            
+                        </div>
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="assets/images/css_icon.png">
+                            <h2>CSS</h2>
+                            <p>O CSS é uma linguagem de folhas de estilos que é utilizada para definir como os documentos escritos na linguagem de marcação HTML.</p>
+                            </div>   
+                        </div>
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="assets/images/js_icon.png">
+                            <h2>Javascript</h2>
+                            <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
+                            </div>   
+                        </div>
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="assets/images/react_icon.png">
+                            <h2>React-native</h2>
+                            <p>React Native é uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa.</p>
+                            </div>   
+                        </div>
+
+                        <div class="card desativado"> 
+                        </div>
+
+                        <div class="card desativado">
+                            
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+
+
+        <section id="projetos">
+            <div class="container">
+                <div class="projetos">
+                    <div class="titulo">
+                        <p>Meus projetos</p>
+                        <h1>Projetos</h1>
+                    </div>
+                    <div class="projetos-cards">
+                        <div class="projetos-card">
+                            <img src="./assets/images/saling page.png" alt="">
+                            <div class="projeto-card-desc">
+                                <div class="projeto-card-desc-esquerda">
+                                    <h2>Site de vendas - infoproduto</h2>
+                                    <div class="projeto-card-desc-categorias">
+                                        <div class="projeto-card-desc-categoria html">HTML</div>
+                                        <div class="projeto-card-desc-categoria css">CSS</div>
+                                        <div class="projeto-card-desc-categoria javascript">JavaScript</div>
+                                    </div>
+                                </div>
+                                <div class="projeto-card-desc-direita">
+                                    <p> Cicle é uma startup que permite vender materiais reciclados com facilidade, descartando aquilo que não se é usado por um preço justo.</p>
+                                    <div class="projeto-card-desc-direita-icons">
+                                        <a href="https://github.com/Jeniffersouza/paginadevendas" target="_blank"><i class="fab fa-github"></i></a>
+                                        <a href="https://jeniffersouza.github.io/paginadevendas/" target="_blank"><i class="fas fa-link"></i></a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="projetos-card">
+                            <img src="./assets/images/pet.png" alt="">
+                            <div class="projeto-card-desc">
+                                <div class="projeto-card-desc-esquerda">
+                                    <h2>PetFood</h2>
+                                    <div class="projeto-card-desc-categorias">
+                                        <div class="projeto-card-desc-categoria html">HTML</div>
+                                        <div class="projeto-card-desc-categoria css">CSS</div>
+                                        <div class="projeto-card-desc-categoria javascript">JavaScript</div>
+                                    </div>  
+                                </div>
+                                <div class="projeto-card-desc-direita">
+                                    <p> PetFood é um e-commerce totalmente voltado para o ramo de animais de estimação                                    </p>
+                                    <div class="projeto-card-desc-direita-icons">
+                                        <a href="https://github.com/Jeniffersouza/e-ccomerce" target="_blank"><i class="fab fa-github"></i></a>
+                                        <a href="https://jeniffersouza.github.io/e-ccomerce" target="_blank"><i class="fas fa-link"></i></a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="projetos-card">
+                            <img src="./assets/images/captura de lead.png" alt="">
+                            <div class="projeto-card-desc">
+                                <div class="projeto-card-desc-esquerda">
+                                    <h2>Pagina de Captura de Lead</h2>
+                                    <div class="projeto-card-desc-categorias">
+                                        <div class="projeto-card-desc-categoria html">HTML</div>
+                                        <div class="projeto-card-desc-categoria css">CSS</div>
+                                        <div class="projeto-card-desc-categoria javascript">JavaScript</div>
+                                    </div>  
+                                </div>
+                                <div class="projeto-card-desc-direita">
+                                    <p>Página de captura de infoproduto, integrada com a plataforma mailchimp com a função email marketing.</p>
+                                    <div class="projeto-card-desc-direita-icons">
+                                        <a href="https://github.com/Jeniffersouza/Cadastro" target="_blank"><i class="fab fa-github"></i></a>
+                                        <a href="https://jeniffersouza.github.io/Cadastro//" target="_blank"><i class="fas fa-link"></i></a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="projetos-card">
+                            <img src="./assets/images/pagina obrigada.png" alt="">
+                            <div class="projeto-card-desc">
+                                <div class="projeto-card-desc-esquerda">
+                                    <h2>Página de Obrigada</h2>
+                                    <div class="projeto-card-desc-categorias">
+                                        <div class="projeto-card-desc-categoria html">HTML</div>
+                                        <div class="projeto-card-desc-categoria css">CSS</div>
+                                    </div>
+                                </div>
+                                <div class="projeto-card-desc-direita">
+                                    <p>Página de obrigada para captura de Lead ou Vendas.</p>
+                                    <div class="projeto-card-desc-direita-icons">
+                                        <a href="https://github.com/Jeniffersouza/Obrigado" target="_blank"><i class="fab fa-github"></i></a>
+                                        <a href="https://jeniffersouza.github.io/Obrigado/" target="_blank"><i class="fas fa-link"></i></a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="projetos-card">
+                            <img src="./assets/images/consulta cep.png" alt="">
+                            <div class="projeto-card-desc">
+                                <div class="projeto-card-desc-esquerda">
+                                    <h2>Consultar Cep</h2>
+                                    <div class="projeto-card-desc-categorias">
+                                        <div class="projeto-card-desc-categoria html">HTML</div>
+                                        <div class="projeto-card-desc-categoria css">CSS</div>
+                                        <div class="projeto-card-desc-categoria javascript">JavaScript</div>
+                                    </div>
+                                </div>
+                                <div class="projeto-card-desc-direita">
+                                    <p>Página estatica para consulta de CEP.</p>
+                                    <div class="projeto-card-desc-direita-icons">
+                                        <a href="https://github.com/Jeniffersouza/consulta-de-cep" target="_blank"><i class="fab fa-github"></i></a>
+                                        <a href="https://jeniffersouza.github.io/consulta-de-cep/" target="_blank"><i class="fas fa-link"></i></a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        
+        <div class="fotter-logo"> 
+            <img src="./assets/images/logo.png" alt="Logo">
+            
+        </div>
+        <address>
+            <center><h1>Entre em Contato</h1> </center>
+            <br>
+            <center><p><a href="https://github.com/Jeniffersouza" id="link" target="_blank">JENIFFER SOUZA</a> | COPYRIGHT © 2022 | TODOS OS DIREITOS RESERVADOS</p></center>
+                
+        </address>
+
+       
+    </footer>
+    <div id="div-fixa" class="flutuar" >
+        <a href="https://api.whatsapp.com/send?phone=5549988161735&text=Ol%C3%A1%20vim%20pelo%20seu%20Portf%C3%B3lio." target="_blank">
+        <div class="flex-itens">
+            <img src="./assets/images/whatsapp.png" alt="chamar no whatsapp">
+            
+        
+        </div>
+    </a>
+
+    </div>
+
+    
+    
+</body>
+</html>
