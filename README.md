@@ -37,4 +37,4 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
 
 ---
 
-Feito com ♥ by [David Augusto](https://github.com/DavidAugustoo)
+Feito com ♥ by [Jeniffer Souza](https://github.com/jeniffersouza)
