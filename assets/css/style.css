@@ -560,11 +560,12 @@ footer {
     }
 
     .menu ul li {
-        margin-top:1px;
+        margin-top:-10px;
         display: flex;
         padding: 20px;
         text-transform: uppercase;
-        margin-left: 20px;
+        margin-left: 0px;
+        
     }
     
 
@@ -608,13 +609,13 @@ footer {
     align-items: center;
     background-color: var(--terciary);
     padding: 50px 0px 10px 0px;
-}
-#icone-rolagem {
-    display:none;
-    margin-top: -50px;
-    justify-content: center;
-    
-}
+    }
+    #icone-rolagem {
+        display:none;
+        margin-top: -50px;
+        justify-content: center;
+        
+    }
 
 
 }
@@ -666,7 +667,7 @@ footer {
         margin: auto;
     }
 
-    .icone-rolagem {
+    #icone-rolagem {
         display: none;
     }
 
@@ -688,6 +689,11 @@ footer {
 
     .projeto-card-desc p{
         margin-top: 30px;
+    }
+    #icone-rolagem {
+        display:none;
+        
+        
     }
 
 }
