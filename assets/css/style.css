@@ -1,9 +1,9 @@
 :root {
     --bg-primary: #151515;
     --bg-second: rgba(24, 24, 24,70);
-    --primary: linear-gradient(#EF5DA8, #b15584);
+    --primary: linear-gradient(#e21ca7, #b15584);
     --second: #fff;
-    --terciary: #EF5DA8;
+    --terciary: #e21ca7;
     --html-color: #FF6D00;
     --css-color: #039BE5;
     --js-color: #FFD600;
@@ -74,9 +74,10 @@ body {
 }
 
 header {
-    width: 100vw;
+    width: 95vw;
     min-height: 100px;
-    padding-top: 40px;
+    padding-top: 0px;
+    
 }
 
 .container {
@@ -86,11 +87,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 1px;
 }
 
 .menu ul {
     display: flex;
     list-style: none;
+    align-items: center;
+    
 }
 
 .menu ul li a{
@@ -130,12 +134,14 @@ header {
 }
 
 .menu_mobile {
+    opacity:1;
     display: none;
     width: 40px;
     height: 40px;
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-right: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .mm_line {
@@ -149,7 +155,7 @@ header {
 
 #banner {
     width: 100vw;
-    height: calc(100vh - 140px);
+    height: calc(100vh - 180px);
 }
 
 .banner {
@@ -171,6 +177,7 @@ header {
     font-size: 7.5rem;
     margin: 10px 0px;
     font-weight: 900;
+    
 }
 
 .banner-esquerda h2 {
@@ -215,11 +222,13 @@ header {
     justify-content: end;
 }
 
-.icone-rolagem {
+#icone-rolagem {
     display: flex;
     margin-top: -70px;
     justify-content: center;
+    
 }
+
 
 
 @keyframes bye {
@@ -260,6 +269,8 @@ header {
 
 .sobre-mim-direita {
     flex: 1;
+    margin-right: 17px;
+    
 }
 
 .titulo p:first-child{
@@ -274,6 +285,7 @@ header {
     height: 5px;
     background: var(--terciary);
     margin: 4px 10px;
+    
 }
 
 .sobre-mim-direita p{
@@ -406,6 +418,7 @@ header {
     flex: 1;
     background-color: var(--bg-second);
     margin-top: 100px;
+   
 }
 
 .projetos-card img{
@@ -494,7 +507,7 @@ footer {
     flex-direction:column;
     align-items: center;
     background-color: var(--terciary);
-    padding: 10px 0px 10px 0px;
+    padding: 15px 0px 20px 0px;
 }
 #link{
     text-decoration: none;
@@ -522,7 +535,7 @@ footer {
     html {
         font-size: 8px;
     }
-
+    
     .banner-direita img {
         width: 90%;
     }
@@ -538,27 +551,29 @@ footer {
         flex-direction: column;
         display: none;
         position: absolute;
-        left: 0;
+        left: 15px;
         width: 100%;
         background-color: var(--bg-primary);
         margin-bottom: 20px;
-        height: auto;
+        height:663px;
     }
 
     .menu ul li {
+        margin-top:15px;
         display: flex;
-        padding: 10px;
+        padding: 25px;
         text-transform: uppercase;
         margin-left: 20px;
     }
-
+    
 
     header {
-        height: auto;
+        height: 25px;
     }
 
     header .container {
         flex-direction: row;
+        padding: 100px 10px;
     }
 
     .menu_mobile {
@@ -570,21 +585,22 @@ footer {
 
 
     .menu nav ul li a{
-        font-size: 2rem;
+        font-size: 2.0rem;
+        
     }
 
     .menu ul li:hover {
-        background-color: var(--terciary);
+       color:var(--terciary);
     }
 
     .menu i:hover {
         font-size: 3.5rem;
-        color: var(--second);
+        color:var(--terciary);
     
     }
     
     .menu ul li a:hover {
-        color: var(--second);
+        color:var(--terciary);
     }
     footer {
     display: flex;

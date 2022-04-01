@@ -11,17 +11,23 @@
     <link rel="shortcut icon" href="./assets/images/favicon.svg" />
     <script src="https://kit.fontawesome.com/ef2c46f17f.js" crossorigin="anonymous"></script>
     <title>Jeniffer Souza</title>
-
+ <!-- MENU -->
     <script type="text/javascript">
         window.onload = function() {
             document.querySelector(".menu_mobile").addEventListener("click", function(){
                 if(document.querySelector(".menu nav ul").style.display == "flex") {
                     document.querySelector(".menu nav ul").style.display = "none";
+                    document.querySelector("span").style.display = "inline-block";
+
                 } else {
                     document.querySelector(".menu nav ul").style.display = "flex";
+                    document.querySelector("span").style.display = "none";
+                    
                 }
             });
         };
+        
+
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PREP89LW65"></script>
@@ -32,6 +38,7 @@
 
   gtag('config', 'G-PREP89LW65');
 </script>
+<!-- ---------------------------------------- -->
 </head>
 <body>
     <header id="header">
@@ -74,8 +81,8 @@
                     </div>
                 </div>
             </div>
-            <div class="icone-rolagem">
-               <img src="./assets/images/mouse.png" alt="">
+            <div id="icone-rolagem">
+               <img src="./assets/images/mouse2.png" alt="">
             </div>
         </section>
 
@@ -87,7 +94,7 @@
                     </div>
                     <div class="sobre-mim-direita">
                         <div class="titulo">
-                            <p>Quem sou eu</p>
+                            <p> Quem sou eu</p>
                             <h1>Sobre mim</h1>
                         </div>
                         <p>Apaixonada por tecnologia, fui apresentada ao desenvolvimento web e mobile. Desde então, sigo estudando e desenvolvendo projetos, a fim de dominar o ecossistema das linguagem JavaScript. Sempre buscando criar soluções combinando design <br> e interatividade para uma melhor experiência do usuário. </br></br>Sou fascinada por resolução de problemas, principalmente utilizando tecnologias que envolvem web e mobile.   Atualmente cursando Ciências da Computação.</p>
@@ -156,7 +163,7 @@
                     </div>
                     <div class="projetos-cards">
                         <div class="projetos-card">
-                            <img src="./assets/images/saling page.png" alt="">
+                            <img src="./assets/images/video2.gif" alt="">
                             <div class="projeto-card-desc">
                                 <div class="projeto-card-desc-esquerda">
                                     <h2>Site de vendas - infoproduto</h2>
@@ -167,7 +174,7 @@
                                     </div>
                                 </div>
                                 <div class="projeto-card-desc-direita">
-                                    <p> Cicle é uma startup que permite vender materiais reciclados com facilidade, descartando aquilo que não se é usado por um preço justo.</p>
+                                    <p> Pagina de Vendas de produto digital.</p>
                                     <div class="projeto-card-desc-direita-icons">
                                         <a href="https://github.com/Jeniffersouza/paginadevendas" target="_blank"><i class="fab fa-github"></i></a>
                                         <a href="https://jeniffersouza.github.io/paginadevendas/" target="_blank"><i class="fas fa-link"></i></a>
@@ -176,7 +183,7 @@
                             </div> 
                         </div>
                         <div class="projetos-card">
-                            <img src="./assets/images/pet.png" alt="">
+                            <img src="./assets/images/video3.gif" alt="">
                             <div class="projeto-card-desc">
                                 <div class="projeto-card-desc-esquerda">
                                     <h2>PetFood</h2>
@@ -196,7 +203,7 @@
                             </div> 
                         </div>
                         <div class="projetos-card">
-                            <img src="./assets/images/captura de lead.png" alt="">
+                            <img src="./assets/images/video4.gif" alt="">
                             <div class="projeto-card-desc">
                                 <div class="projeto-card-desc-esquerda">
                                     <h2>Pagina de Captura de Lead</h2>
@@ -216,20 +223,21 @@
                             </div> 
                         </div>
                         <div class="projetos-card">
-                            <img src="./assets/images/pagina obrigada.png" alt="">
+                            <img src="./assets/images/video5.gif" alt="">
                             <div class="projeto-card-desc">
                                 <div class="projeto-card-desc-esquerda">
-                                    <h2>Página de Obrigada</h2>
+                                    <h2>Landing Page</h2>
                                     <div class="projeto-card-desc-categorias">
                                         <div class="projeto-card-desc-categoria html">HTML</div>
                                         <div class="projeto-card-desc-categoria css">CSS</div>
+                                        <div class="projeto-card-desc-categoria javascript">JavaScript</div>
                                     </div>
                                 </div>
                                 <div class="projeto-card-desc-direita">
-                                    <p>Página de obrigada para captura de Lead ou Vendas.</p>
+                                    <p> Pagina de Vendas de produto digital. </p>
                                     <div class="projeto-card-desc-direita-icons">
-                                        <a href="https://github.com/Jeniffersouza/Obrigado" target="_blank"><i class="fab fa-github"></i></a>
-                                        <a href="https://jeniffersouza.github.io/Obrigado/" target="_blank"><i class="fas fa-link"></i></a>
+                                        <a href="https://github.com/Jeniffersouza/metodonh" target="_blank"><i class="fab fa-github"></i></a>
+                                        <a href="https://jeniffersouza.github.io/metodonh/" target="_blank"><i class="fas fa-link"></i></a>
                                     </div>
                                 </div>
                             </div> 
