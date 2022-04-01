@@ -612,8 +612,7 @@ footer {
     }
     #icone-rolagem {
         display:none;
-        margin-top: -50px;
-        justify-content: center;
+        
         
     }
 
@@ -625,6 +624,14 @@ footer {
     .container {
         padding: 0px 0px;
        
+    }
+    .menu ul li {
+        margin-top:-10px;
+        display: flex;
+        padding: 20px;
+        text-transform: uppercase;
+        margin-left: 0px;
+        
     }
 
     #projetos .container {
